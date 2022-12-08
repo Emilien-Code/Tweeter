@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+a{
+    color: #5A6BFF
+}
+body{
+    padding: 0 40px;
+}
+header{
+    padding: 32px 0;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header > svg{
+    margin-left: 32px;
+}
+h2{
+    font-size: 32px;
+    margin: 32px 0;
+}
+p{
+    font-size: 24px;
+}
+li, .tweet{
+    padding: 32px;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+    background: #F8F8F8;
+    border-radius: 48px;
+    margin-bottom: 24px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
+
+}
+li p {
+    margin: 8px 0;
+}
+#new-tweet{
+    display: block;
+    width: 80px;
+    height: 80px;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    background: #F8F8F8;
+    padding: 16px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
+}
+
+#followed-by{
+    font-size: 16px;
+    text-align: right;
+}
+ul{
+    margin-top: 32px;
+}
+
+input,button{
+    width: 280px;
+    height: 48px;
+    padding: 16px 32px;
+    background: #F8F8F8;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 48px;
+    border: none;
+    display: block;
+    margin-bottom: 16px;
+}
+button{
+    background-color: #5A6BFF;
+    color: #ffffff;
+    cursor: pointer;
+}
